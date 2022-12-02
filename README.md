@@ -14,11 +14,11 @@ Made by Andrei Mărunțiș
 
 To use this skeleton you will need the following tools:
 
-- nvm (Node Version Manager) and node: https://css-tricks.com/how-to-install-npm-node-nvm/
+- node: https://nodejs.org/en/download/
 - MongoDB Community Server: https://www.mongodb.com/try/download/community
 - MongoDB Compass: https://www.mongodb.com/try/download/compass
 
-This skeleton consists of 2 applications that need to be installed using nvm:
+This skeleton consists of 2 applications that need to be installed using npm:
 
 - To install backend, run command `cd .\backend\` from project root directory and then install with command `npm i`
 - Similarly, install backend from `frontend` folder
