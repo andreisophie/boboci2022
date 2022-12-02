@@ -31,3 +31,7 @@ The 2 applications need to be run separately:
 
 - To start backend, go to `backend` folder and run command `npm start`
 - Similarly start frontend from `frontend` folder
+
+## Important!!!
+
+Do **NOT** fork this repository, the fork will be public!
