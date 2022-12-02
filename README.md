@@ -1,4 +1,4 @@
-### Schelet proiect proba tehnica LSAC IT 2022
+# Schelet proiect proba tehnica LSAC IT 2022
 
 Made by Andrei Mărunțiș
 
@@ -18,7 +18,7 @@ To use this skeleton you will need the following tools:
 
 This skeleton consists of 2 applications that need to be installed using nvm:
 
-- To install backend, run command `cd \backend\` from project root directoryand then install with command `nvm i`
+- To install backend, run command `cd \backend\` from project root directory and then install with command `nvm i`
 - Similarly, install backend from `frontend` folder
 
 Other recommended tools for developing applications:
