@@ -14,7 +14,7 @@ Made by Andrei Mărunțiș
 
 To use this skeleton you will need the following tools:
 
-- nvm (Node Version Manager): https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/
+- nvm (Node Version Manager) and node: https://css-tricks.com/how-to-install-npm-node-nvm/
 - MongoDB Community Server: https://www.mongodb.com/try/download/community
 - MongoDB Compass: https://www.mongodb.com/try/download/compass
 
