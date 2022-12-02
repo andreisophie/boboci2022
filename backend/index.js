@@ -6,7 +6,9 @@ const cors = require("cors");
 
 const config = require("./config/config")
 
-const healthRoutes = require("./routes/health.route")
+const healthRoutes = require("./routes/health.route");
+const userRoutes = require("./routes/user.route");
+const User = require("./models/user.model");
 
 const app = express();
 
@@ -24,6 +26,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.use("/api/health", healthRoutes);
+app.use("/api/users", userRoutes);
 
 server.listen(config.port, () => {
     console.log(`listening on localhost:${config.port}`);
