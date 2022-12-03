@@ -34,6 +34,7 @@ This skeleton consists of 2 applications that need to be installed using npm:
 The 2 applications need to be run separately:
 
 - To start backend, go to `backend` folder and run command `npm start`
+    - Backend might also need nodemon to start, run command `npm i -g nodemon` from `backend` folder to install nodemon
 - Similarly start frontend from `frontend` folder
 
 ## Important!!!
