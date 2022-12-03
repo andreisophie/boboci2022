@@ -20,14 +20,14 @@ To use this skeleton you will need the following tools:
 
 > **Note**: MongoDB Community Server installer will prompt you to install MongoDB Compass, you can check the box and skip last step :)
 
+Other recommended tools for developing applications:
+
+- Postman: https://www.postman.com/downloads/
+
 This skeleton consists of 2 applications that need to be installed using npm:
 
 - To install backend, run command `cd .\backend\` from project root directory and then install with command `npm i`
 - Similarly, install backend from `frontend` folder
-
-Other recommended tools for developing applications:
-
-- Postman: https://www.postman.com/downloads/
 
 ## Running
 
