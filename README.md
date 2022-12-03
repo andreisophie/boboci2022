@@ -39,3 +39,5 @@ The 2 applications need to be run separately:
 ## Important!!!
 
 Do **NOT** fork this repository, the fork will be public!
+
+Instead, download code as .zip archive and copy into your personal project directory if you want to use it.
