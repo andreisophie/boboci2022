@@ -4,6 +4,7 @@
     width: 100%;
     background-image: url("https://static.cinemagia.ro/img/db/actor/00/89/85/adrian-copilul-minune-993670l.jpg");
     background-size: 15%;
+    display: flex;
 }
 
 .button-wrapper {
@@ -28,8 +29,11 @@
     background-color: purple;
     border: 3px solid black;
     border-radius: 20px;
+    margin: auto;
+    padding: 10px;
 }
 
 .child-div {
     font-size: 26px;
+    background-color: green;
 }

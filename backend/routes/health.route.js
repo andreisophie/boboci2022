@@ -10,4 +10,16 @@ router.get("/", (_, res) => {
     });
 })
 
+/*
+
+function name(a, b) {
+    ...
+}
+
+(a, b) => {
+    ...
+}
+
+*/
+
 module.exports = router;
