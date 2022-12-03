@@ -27,7 +27,7 @@ Other recommended tools for developing applications:
 This skeleton consists of 2 applications that need to be installed using npm:
 
 - To install backend, run command `cd .\backend\` from project root directory and then install with command `npm i`
-- Similarly, install backend from `frontend` folder
+- Similarly, install frontend from `frontend` folder
 
 ## Running
 
