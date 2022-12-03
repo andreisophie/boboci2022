@@ -18,6 +18,8 @@ To use this skeleton you will need the following tools:
 - MongoDB Community Server: https://www.mongodb.com/try/download/community
 - MongoDB Compass: https://www.mongodb.com/try/download/compass
 
+> **Note**: MongoDB Community Server installer will prompt you to install MongoDB Compass, you can check the box and skip last step :)
+
 This skeleton consists of 2 applications that need to be installed using npm:
 
 - To install backend, run command `cd .\backend\` from project root directory and then install with command `npm i`
