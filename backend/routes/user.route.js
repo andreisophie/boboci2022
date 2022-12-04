@@ -2,7 +2,7 @@ const router = require("express").Router();
 const User = require("../models/user.model");
 
 // /api/user
-router.post("/", (req, res) => {
+router.post("/", async (req, res) => {
     try {
         const user = new User({
             username: req.body.username,
@@ -12,7 +12,7 @@ router.post("/", (req, res) => {
 
         console.log(user);
 
-        const duplicateUser = User.findOne({email: user.email});
+        const duplicateUser = await User.findOne({email: user.email});
 
         console.log(duplicateUser);
 
@@ -23,7 +23,7 @@ router.post("/", (req, res) => {
             })
         }
 
-        const duplicateUser2 = User.findOne({username: user.username});
+        const duplicateUser2 = await User.findOne({username: user.username});
 
         if (duplicateUser2) {
             return res.send({
